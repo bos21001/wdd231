@@ -1,0 +1,18 @@
+{
+    "family_name" : "Mendes",
+    "move_in_date" : "2024-04-01",
+    "number_of_peopl" : 2,
+    "visited_by_bishop" : true,
+    "family_members" : [
+        {
+            "name" : "John",
+            "gender" : "Male",
+            "birthdate" : "1990-01-01"
+        },
+        {
+            "name" : "Jane",
+            "gender": "Female",
+            "birthdate" : "1992-02-02"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+/* ================================================
+   Media Queries - Screens larger than 660px
+   ================================================ */
+   @media only screen and (min-width: 660px) {
+
+    /* ================================================
+       Navigation Styles
+       ================================================ */
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        color: white;
+    }
+
+    nav.collapsed {
+        max-height: 100%;
+        opacity: 100%;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    nav a:first-child {
+        padding-top: 10px;
+    }
+
+    /* Hide the hamburger icon on larger screens */
+    #hamburger {
+        display: none;
+    }
+
+    /* ================================================
+       Footer Styles
+       ================================================ */
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* ================================================
+       Body and Layout Adjustments
+       ================================================ */
+    /* Ensure body stretches to fill viewport height */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    /* Main content will take up available space */
+    main {
+        flex: 1;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+}

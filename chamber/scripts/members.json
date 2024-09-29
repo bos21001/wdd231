@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Coca-Cola Co.",
+        "address": "1234 Main St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.coca-cola.com/",
+        "image": "images/companies/coca-cola-logo.svg",
+        "level": 1,
+        "other": "Coca-Cola plays a major role in the local and global economy."
+    },
+    {
+        "name": "PepsiCo",
+        "address": "5678 Elm St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.pepsico.com/",
+        "image": "images/companies/pepsico-logo.svg",
+        "level": 2,
+        "other": "PepsiCo is a major competitor of Coca-Cola. But they are willing to work together for the greater good."
+    },
+    {
+        "name": "New Balance",
+        "address": "91011 Oak St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://newbalance.com/",
+        "image": "images/companies/new-balance-logo.svg",
+        "level": 3,
+        "other": "New Balance is a major player in the shoe industry."
+    },
+    {
+        "name": "Nike",
+        "address": "121314 Pine St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.nike.com/",
+        "image": "images/companies/nike-logo.svg",
+        "level": 1,
+        "other": "Nike is a major player in the shoe industry."
+    },
+    {
+        "name": "Lenovo",
+        "address": "151617 Maple St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.lenovo.com/",
+        "image": "images/companies/lenovo-logo.svg",
+        "level": 2,
+        "other": "Lenovo is a major player in the computer industry."
+    },
+    {
+        "name": "Dell",
+        "address": "181920 Birch St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.dell.com/",
+        "image": "images/companies/dell-logo.svg",
+        "level": 3,
+        "other": "Dell is a major player in the computer industry. And is making a great push into the gaming industry."
+    },
+    {
+        "name": "Nvidia",
+        "address": "212223 Cedar St, Anytown, USA",
+        "phone": "555-555-5555",
+        "website": "https://www.nvidia.com/",
+        "image": "images/companies/nvidia-logo.svg",
+        "level": 1,
+        "other": "Nvidia is a major player in the computer industry. And is making a great push into the AI industry."
+    }
+]

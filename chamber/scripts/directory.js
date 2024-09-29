@@ -44,6 +44,9 @@ function renderCompanies(companies) {
     fetchMembers().then(members => {
         let companiesElement = document.querySelector("#companies");
 
+        // clear out any existing companies
+        companiesElement.innerHTML = "";
+
         members.forEach(member => {
             console.log(member);
             const companyElement = document.createElement("div");

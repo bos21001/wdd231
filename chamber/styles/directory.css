@@ -62,21 +62,6 @@
     transition: transform 0.3s;
 }
 
-/* Icons for phone and address (Bootstrap Icons) */
-#companies .company .phone::before, 
-#companies .company .address::before {
-    font-family: 'Bootstrap-icons';
-    font-weight: bold;
-}
-
-#companies .company .phone::before {
-    content: "\F5B4    "; /* Icon for phone */
-}
-
-#companies .company .address::before {
-    content: "\F64B    "; /* Icon for address */
-}
-
 /* ================================================
    Companies Display as List
    ================================================ */
@@ -110,6 +95,11 @@
 
 #companies.list .company img {
     display: none; /* Hide images in list view */
+}
+
+#companies.empty {
+    text-align: center;
+    margin: 2rem 0;
 }
 
 /* ================================================

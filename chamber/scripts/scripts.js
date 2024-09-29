@@ -1,3 +1,6 @@
+// bfcache
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const hamburger = document.querySelector("#hamburger");
 

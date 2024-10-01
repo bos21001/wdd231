@@ -29,8 +29,10 @@ function setCurrentPageNav() {
     let navLinks = document.querySelectorAll("nav a");
 
     navLinks.forEach(link => {
+        let href = link.getAttribute("href").replace(".html", "");
+
         // if the href attribute of the link matches the current page
-        if (currentPage.includes(link.getAttribute("href"))) {
+        if (currentPage.includes(href)) {
             // add a class to the link to style it differently
             link.classList.add("active");
         }

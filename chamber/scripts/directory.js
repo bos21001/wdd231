@@ -48,7 +48,6 @@ function renderCompanies(companies) {
         companiesElement.innerHTML = "";
 
         members.forEach(member => {
-            console.log(member);
             const companyElement = document.createElement("div");
             companyElement.classList.add("company");
             

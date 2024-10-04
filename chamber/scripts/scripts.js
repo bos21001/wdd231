@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function setCurrentYear() {
-    let currentYear = new Date().getFullYear();
+    currentYear = new Date().getFullYear();
 
     document.getElementById("currentYear").textContent = currentYear;
 }
 
 function setLastModified() {
-    let lastModified = document.lastModified;
+    lastModified = document.lastModified;
 
     document.getElementById("lastModified").textContent = lastModified;
 }
@@ -37,6 +37,11 @@ function setCurrentPageNav() {
             link.classList.add("active");
         }
     });
+
+    // if no link is active, set the first link to active
+    if (!document.querySelector("nav a.active")) {
+        navLinks[0].classList.add("active");
+    }
 }
 
 function handleHamburgerClick() {

@@ -64,5 +64,5 @@ function handleHamburgerClick() {
     nav.classList.toggle("collapsed");
 
     // Toggle the hamburger icon
-    hamburger.textContent = isExpanded ? "☰" : "✖";
+    hamburger.textContent = isExpanded ? "✖" : "☰";
 }

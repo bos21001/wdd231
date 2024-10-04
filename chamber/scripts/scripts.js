@@ -36,6 +36,10 @@ function setCurrentPageNav() {
             // add a class to the link to style it differently
             link.classList.add("active");
         }
+
+        if (currentPage.includes("#") && href === "#") {
+            link.classList.remove("active");
+        }
     });
 
     // if no link is active, set the first link to active

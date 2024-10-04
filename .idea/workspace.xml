@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409845c3-0a59-4b6e-979e-d88a97c297fb" name="Changes" comment="fixes the member.json reference">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="409845c3-0a59-4b6e-979e-d88a97c297fb" name="Changes" comment="W03: Chamber Home Page">
       <change beforePath="$PROJECT_DIR$/chamber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/home.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,7 @@
       <workItem from="1726829303383" duration="4865000" />
       <workItem from="1726950745926" duration="391000" />
       <workItem from="1727987586872" duration="6701000" />
-      <workItem from="1728045878254" duration="15472000" />
+      <workItem from="1728045878254" duration="15826000" />
     </task>
     <task id="LOCAL-00001" summary="W03: Chamber Home Page - Mock-up data only  &#10;&#10;No javascript added yet">
       <option name="closed" value="true" />
@@ -144,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728058394407</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="W03: Chamber Home Page">
+      <option name="closed" value="true" />
+      <created>1728075206324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728075206324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +161,7 @@
     <MESSAGE value="fixes the navbar current page bug&#10;&#10;Now the navbar sets as active only the page that it's really in" />
     <MESSAGE value="random gold and silver companies highlights" />
     <MESSAGE value="fixes the member.json reference" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes the member.json reference" />
+    <MESSAGE value="W03: Chamber Home Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="W03: Chamber Home Page" />
   </component>
 </project>

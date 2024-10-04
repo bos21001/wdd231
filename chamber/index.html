@@ -39,6 +39,9 @@
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/home.css">
 
+    <script src="scripts/modules.mjs" type="module" defer></script>
+    <script src="scripts/home.js" type="module" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -55,8 +58,8 @@
                     height="70" width="70" loading="lazy"></a>
             <h1>Unity <span>Commerce Alliance</span></h1>
         </div>
-        <button id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="navigation">☰</button>
-        <nav id="navigation" class="collapsed" aria-hidden="true">
+        <button id="hamburger" aria-label="Menu" aria-expanded="true" aria-controls="navigation">☰</button>
+        <nav id="navigation" class="collapsed">
             <a href="index.html">Home</a>
             <a href="directory.html">Directory</a>
             <a href="#">Join</a>
@@ -132,63 +135,7 @@
                 </div>
             </div>
             <div id="companies" class="grid">
-                    <div class="company">
-                        <div class="company-header">
-                            <h3>Company 1</h3>
-                            <p>Business Tagline</p>
-                        </div>
-                        <div class="company-body">
-                            <div class="company-image">
-                                <img src="images/companies/dell-logo.svg" alt="Company 1" loading="lazy" height="200"
-                                    width="200">
-                            </div>
-                            <div class="company-info">
-                                <p><span class="bolder">EMAIL:</span> <a href="mailto:test@test.com">test@test.com</a>
-                                </p>
-                                <p><span class="bolder">PHONE:</span> (123) 456-7890</p>
-                                <p><span class="bolder">URL:</span> <a href="https://www.test.com" target="_blank"
-                                        rel="noopener noreferrer">www.test.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="company">
-                        <div class="company-header">
-                            <h3>Company 2</h3>
-                            <p>Business Tagline</p>
-                        </div>
-                        <div class="company-body">
-                            <div class="company-body">
-                                <img src="images/companies/coca-cola-logo.svg" alt="Company 2" loading="lazy"
-                                    height="200" width="200">
-                            </div>
-                            <div class="company-info">
-                                <p><span class="bolder">EMAIL:</span> <a href="mailto:test@test.com">test@test.com</a>
-                                </p>
-                                <p><span class="bolder">PHONE:</span> (123) 456-7890</p>
-                                <p><span class="bolder">URL:</span> <a href="https://www.test.com" target="_blank"
-                                        rel="noopener noreferrer">www.test.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="company">
-                        <div class="company-header">
-                            <h3>Company 3</h3>
-                            <p>Business Tagline</p>
-                        </div>
-                        <div class="company-body">
-                            <div class="company-body">
-                                <img src="images/companies/lenovo-logo.svg" alt="Company 3" loading="lazy" height="200"
-                                    width="200">
-                            </div>
-                            <div class="company-info">
-                                <p><span class="bolder">EMAIL:</span> <a href="mailto:test@test.com">test@test.com</a>
-                                </p>
-                                <p><span class="bolder">PHONE:</span> (123) 456-7890</p>
-                                <p><span class="bolder">URL:</span> <a href="https://www.test.com" target="_blank"
-                                        rel="noopener noreferrer">www.test.com</a></p>
-                            </div>
-                        </div>
-                    </div>
+                <!-- JavaScript will add companies here -->
             </div>
         </div>
     </main>

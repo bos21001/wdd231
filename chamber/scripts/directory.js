@@ -1,9 +1,4 @@
-// Fetch the fetch("scripts/members.json"); with async/await
-const fetchMembers = async () => {
-    const response = await fetch("scripts/members.json");
-    const members = await response.json();
-    return members;
-};
+import { fetchMembers } from "./modules.mjs";
 
 document.addEventListener("DOMContentLoaded", () => {
     const viewOptions = document.querySelectorAll("#view-options>button");
@@ -38,7 +33,7 @@ function handleViewOptionsClick(target) {
     }
 }
 
-function renderCompanies(companies) {
+function renderCompanies() {
 
     
     fetchMembers().then(members => {

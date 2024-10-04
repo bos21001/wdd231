@@ -96,7 +96,7 @@
     align-content: center;
     gap: 1rem;
     text-align: center;
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0;
 }
 
 #companies.grid .company {
@@ -116,6 +116,7 @@
     color: var(--text-color-dark);
     border-radius: 10px 10px 0 0;
     border-bottom: 1px solid var(--footer-bg-color);
+    padding-inline: 1em;
 }
 
 /* Company Body in Grid View */
@@ -124,6 +125,7 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
+    padding-inline: 1em;
 }
 
 #companies.grid .company .company-body img {
@@ -146,6 +148,36 @@
 
     #home > #companies {
         display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #companies.grid .company .company-body {
+        flex-wrap: wrap;
+    }
+
+    #home > #events-and-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #events {
+        grid-column: 1 / -1;
+    }
+}
+
+/* ================================================
+   Media Queries - Screens larger than 1260px
+   ================================================ */
+@media only screen and (min-width: 1260px) {
+    #home > #companies {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #home > #events-and-weather {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    #events {
+        grid-column: 1 / 2;
     }
 }

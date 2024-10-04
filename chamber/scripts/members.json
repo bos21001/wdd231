@@ -6,7 +6,8 @@
         "website": "https://www.coca-cola.com/",
         "image": "images/companies/coca-cola-logo.svg",
         "level": 1,
-        "other": "Coca-Cola plays a major role in the local and global economy."
+        "other": "Coca-Cola plays a major role in the local and global economy.",
+        "email": "contact@coca-cola.com"
     },
     {
         "name": "PepsiCo",
@@ -15,7 +16,8 @@
         "website": "https://www.pepsico.com/",
         "image": "images/companies/pepsico-logo.svg",
         "level": 2,
-        "other": "PepsiCo is a major competitor of Coca-Cola. But they are willing to work together for the greater good."
+        "other": "PepsiCo is willing to work together for the greater good.",
+        "email": "contact@pepsico.com"
     },
     {
         "name": "New Balance",
@@ -24,7 +26,8 @@
         "website": "https://newbalance.com/",
         "image": "images/companies/new-balance-logo.svg",
         "level": 3,
-        "other": "New Balance is a major player in the shoe industry."
+        "other": "New Balance is a major player in the shoe industry.",
+        "email": "contact@newbalance.com"
     },
     {
         "name": "Nike",
@@ -33,7 +36,8 @@
         "website": "https://www.nike.com/",
         "image": "images/companies/nike-logo.svg",
         "level": 1,
-        "other": "Nike is a major player in the shoe industry."
+        "other": "Nike is a major player in the shoe industry.",
+        "email": "contact@nike.com"
     },
     {
         "name": "Lenovo",
@@ -42,7 +46,8 @@
         "website": "https://www.lenovo.com/",
         "image": "images/companies/lenovo-logo.svg",
         "level": 2,
-        "other": "Lenovo is a major player in the computer industry."
+        "other": "Lenovo is a major player in the computer industry.",
+        "email": "contact@lenovo.com"
     },
     {
         "name": "Dell",
@@ -51,7 +56,8 @@
         "website": "https://www.dell.com/",
         "image": "images/companies/dell-logo.svg",
         "level": 3,
-        "other": "Dell is a major player in the computer industry. And is making a great push into the gaming industry."
+        "other": "Dell is a major player in the computer industry.",
+        "email": "contact@dell.com"
     },
     {
         "name": "Nvidia",
@@ -60,6 +66,7 @@
         "website": "https://www.nvidia.com/",
         "image": "images/companies/nvidia-logo.svg",
         "level": 1,
-        "other": "Nvidia is a major player in the computer industry. And is making a great push into the AI industry."
+        "other": "Nvidia is a major player in the computer industry.",
+        "email": "contact@nvidia.com"
     }
 ]

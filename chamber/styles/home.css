@@ -126,6 +126,7 @@
     align-items: center;
     gap: 1rem;
     padding-inline: 1em;
+    flex-wrap: wrap;
 }
 
 #companies.grid .company .company-body img {
@@ -148,7 +149,7 @@
 
     #home > #companies {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     #companies.grid .company .company-body {
@@ -162,6 +163,10 @@
 
     #events {
         grid-column: 1 / -1;
+    }
+
+    #companies.grid .company .company-body {
+        flex-wrap: nowrap;
     }
 }
 
@@ -179,5 +184,9 @@
 
     #events {
         grid-column: 1 / 2;
+    }
+
+    #companies.grid .company .company-body {
+        flex-wrap: nowrap;
     }
 }

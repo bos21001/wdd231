@@ -1,18 +1,18 @@
 :root {
-    --bg-primary: #dddddd;
-    --bg-secondary: white;
-    --bg-headers: #164E70;
+    --prophets-bg-primary: #dddddd;
+    --prophets-bg-secondary: white;
+    --prophets-bg-headers: #164E70;
 }
 
 body {
     font-family: "Nunito", sans-serif;
     margin: 0;
-    background-color: var(--bg-primary);
+    background-color: var(--prophets-bg-primary);
     text-align: center;
 }
 
 header {
-    background-color: var(--bg-headers);
+    background-color: var(--prophets-bg-headers);
     color: white;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -30,7 +30,7 @@ header {
 }
 
 #filter button {
-    background-color: var(--bg-headers);
+    background-color: var(--prophets-bg-headers);
     color: white;
     border: none;
     border-radius: 5px;
@@ -82,7 +82,7 @@ header {
 }
 
 footer {
-    background-color: var(--bg-headers);
+    background-color: var(--prophets-bg-headers);
     color: white;
     padding: 1rem;
     margin-top: 1rem;

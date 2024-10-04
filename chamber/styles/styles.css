@@ -1,12 +1,17 @@
-/* ================================================
-   General Styling
-   ================================================ */
-body {
-    font-family: "Hind", sans-serif;
+:root {
+    --main-bg-color: black;
+    --accent-color: #F9AF3B;
+    --text-color-light: white;
+    --text-color-dark: black;
+    --footer-bg-color: rgb(78, 78, 78);
+    --box-shadow-color: rgba(0, 0, 0, 0.55);
+    --header-padding: 1rem;
+    --nav-padding: 10px;
+    --nav-padding-top: 20px;
 }
 
-main {
-    padding: 0 0.5rem;
+body {
+    font-family: "Hind", sans-serif;
 }
 
 .sub-heading {
@@ -14,23 +19,20 @@ main {
     margin: 1rem 0;
 }
 
-/* ================================================
-   Header Styling
-   ================================================ */
 header {
     display: grid;
     grid-template: auto / auto auto;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: #F9AF3B;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+    background-color: var(--main-bg-color);
+    color: var(--accent-color);
+    box-shadow: 0 0 10px var(--box-shadow-color);
 }
 
 #logo {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: var(--header-padding);
 }
 
 #logo h1 {
@@ -41,28 +43,22 @@ header {
 #logo span {
     display: block;
     font-weight: 200;
-    color: white;
+    color: var(--text-color-light);
 }
 
-/* ================================================
-   Hamburger Button Styling
-   ================================================ */
 button#hamburger {
     background: transparent;
-    color: #F9AF3B;
+    color: var(--accent-color);
     font-size: 2rem;
     border: none;
     cursor: pointer;
     padding-right: 1rem;
 }
 
-/* ================================================
-   Navigation Styling
-   ================================================ */
 nav {
     display: flex;
     flex-direction: column;
-    background-color: #F9AF3B;
+    background-color: var(--accent-color);
     font-size: 1.2rem;
     font-weight: 500;
     transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
@@ -73,30 +69,28 @@ nav {
 }
 
 nav a {
-    color: black;
+    color: var(--text-color-dark);
     text-decoration: none;
-    padding: 10px;
+    padding: var(--nav-padding);
 }
 
 nav a:first-child {
-    padding-top: 20px;
+    padding-top: var(--nav-padding-top);
 }
 
 nav a:hover {
-    color: #F9AF3B;
-    background-color: black;
+    color: var(--accent-color);
+    background-color: var(--main-bg-color);
 }
 
 nav a.active {
-    background-color: black;
-    color: #F9AF3B;
+    background-color: var(--main-bg-color);
+    color: var(--accent-color);
     cursor: default;
 }
 
-/* Navigation states: expanded/collapsed */
 nav.expanded {
     max-height: 300px;
-    /* Adjust based on actual content */
     opacity: 1;
 }
 
@@ -105,14 +99,11 @@ nav.collapsed {
     opacity: 0;
 }
 
-/* ================================================
-   Footer Styling
-   ================================================ */
 footer {
-    background-color: rgb(78, 78, 78);
-    color: white;
-    padding: 1rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
+    background-color: var(--footer-bg-color);
+    color: var(--text-color-light);
+    padding: var(--header-padding);
+    box-shadow: 0 0 10px var(--box-shadow-color);
 }
 
 footer p {
@@ -120,12 +111,9 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color: var(--text-color-light);
 }
 
-/* ================================================
-   Social Media Section in Footer
-   ================================================ */
 #social-media {
     display: flex;
     align-items: center;

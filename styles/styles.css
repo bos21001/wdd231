@@ -1,5 +1,5 @@
 :root {
-    --bg-primary : #dddddd;
+    --bg-primary: #dddddd;
     --bg-secondary: white;
     --bg-headers: #164E70;
 }
@@ -22,7 +22,7 @@ nav {
     display: none;
 }
 
-nav a:link, nav a:visited{
+nav a:link, nav a:visited {
     color: white;
     text-decoration: none;
 }
@@ -187,11 +187,11 @@ footer {
     nav {
         display: block;
     }
-    
+
     nav li {
-        padding: 1rem 
+        padding: 1rem
     }
-    
+
     nav ul {
         display: flex;
         justify-content: space-evenly;
@@ -235,4 +235,39 @@ footer {
         max-width: 250px;
         max-height: 375px;
     }
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 50%);
+}
+
+dialog {
+    padding: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    border: none;
+}
+
+#dialog-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-headers);
+    padding: 1rem;
+    color: white;
+}
+
+#dialog-body {
+    padding: 1rem;
+}
+
+#close-dialog {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#close-dialog:hover {
+    cursor: pointer;
 }

@@ -4,173 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409845c3-0a59-4b6e-979e-d88a97c297fb" name="Changes" comment="fixes the js error">
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/scripts.js" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="fixes the hamburger and close button">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bos21001"
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bos21001/wdd231.git",
-    "accountId": "679bfcdf-73c6-436a-ac1d-c85e3f73d8f7"
-  }
-}]]></component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2mKd5Y8j86oU0wiZ8aEU3Adrdjk" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Christopher Mendes/Documents/repos/wdd231&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\chamber\images" />
-      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\styles" />
-      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wdd231/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="409845c3-0a59-4b6e-979e-d88a97c297fb" name="Changes" comment="" />
-      <created>1726829018957</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1726829018957</updated>
-      <workItem from="1726829020045" duration="254000" />
-      <workItem from="1726829303383" duration="4865000" />
-      <workItem from="1726950745926" duration="391000" />
-      <workItem from="1727987586872" duration="6701000" />
-      <workItem from="1728045878254" duration="16294000" />
-    </task>
-    <task id="LOCAL-00001" summary="W03: Chamber Home Page - Mock-up data only  &#10;&#10;No javascript added yet">
-      <option name="closed" value="true" />
-      <created>1728051332607</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1728051332607</updated>
-    </task>
-    <task id="LOCAL-00002" summary="W03: Chamber Home Page - index highlight">
-      <option name="closed" value="true" />
-      <created>1728051778289</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1728051778289</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fixes the navbar current page bug&#10;&#10;Now the navbar sets as active only the page that it's really in">
-      <option name="closed" value="true" />
-      <created>1728052497000</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1728052497000</updated>
-    </task>
-    <task id="LOCAL-00004" summary="random gold and silver companies highlights">
-      <option name="closed" value="true" />
-      <created>1728058220068</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728058220068</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fixes the member.json reference">
-      <option name="closed" value="true" />
-      <created>1728058394407</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1728058394407</updated>
-    </task>
-    <task id="LOCAL-00006" summary="W03: Chamber Home Page">
-      <option name="closed" value="true" />
-      <created>1728075206324</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1728075206324</updated>
-    </task>
-    <task id="LOCAL-00007" summary="fixes the js error">
-      <option name="closed" value="true" />
-      <created>1728075565245</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1728075565245</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="W03: Chamber Home Page - Mock-up data only  &#10;&#10;No javascript added yet" />
-    <MESSAGE value="W03: Chamber Home Page - index highlight" />
-    <MESSAGE value="fixes the navbar current page bug&#10;&#10;Now the navbar sets as active only the page that it's really in" />
-    <MESSAGE value="random gold and silver companies highlights" />
-    <MESSAGE value="fixes the member.json reference" />
-    <MESSAGE value="W03: Chamber Home Page" />
-    <MESSAGE value="fixes the js error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes the js error" />
+    <MESSAGE value="fixes the hamburger and close button" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes the hamburger and close button" />
   </component>
 </project>

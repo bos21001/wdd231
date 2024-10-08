@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let hamburgerIcon = document.getElementById("hamburger-icon");
         let xIcon = document.getElementById("x-icon");
 
-        if (headerNav.style.display != "block") {
+        if (headerNav.style.display !== "block") {
             headerNav.style.display = "block";
             hamburgerIcon.style.display = "none";
             xIcon.style.display = "block";
@@ -114,15 +114,15 @@ document.addEventListener("DOMContentLoaded", () => {
     selectingButtons.addEventListener("click", (event) => {
         let textContent = event.target.innerText;
 
-        if (textContent == "All") {
+        if (textContent === "All") {
             updateCourseList(courses);
-        } else if (textContent == "WDD") {
-            let updatedCourses = courses.filter((course) => course.subject == "WDD");
+        } else if (textContent === "WDD") {
+            let updatedCourses = courses.filter((course) => course.subject === "WDD");
 
             console.log(updatedCourses);
             updateCourseList(updatedCourses);
-        } else if (textContent == "CSE") {
-            let updatedCourses = courses.filter((course) => course.subject == "CSE");
+        } else if (textContent === "CSE") {
+            let updatedCourses = courses.filter((course) => course.subject === "CSE");
 
             console.log(updatedCourses);
             updateCourseList(updatedCourses);

@@ -30,6 +30,7 @@ nav a:link, nav a:visited {
 nav li {
     padding: 0.5rem;
     padding-left: 2rem;
+    transition: background-color 0.3s ease;
 }
 
 nav ul {
@@ -67,6 +68,7 @@ nav li:hover {
     background-color: transparent;
     border-style: none;
     color: white;
+    transition: background-color 0.3s ease;
 }
 
 #header-details button:hover {
@@ -131,6 +133,7 @@ section hr {
 #course-links li:hover {
     background-color: rgb(169, 169, 169);
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #course-links a:visited, #course-links a:link {

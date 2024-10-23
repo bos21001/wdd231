@@ -62,7 +62,7 @@ function convertUnixToTime(unixTimestamp, timezoneOffset) {
 function displayWeatherResults(data) {
     const weatherElement = document.querySelector("#weather");
     const weatherBody = document.createElement("div");
-    weatherBody.classList.add("events-and-weather-body");
+    weatherBody.classList.add("card-body");
 
     const img = document.createElement("img");
     img.src = `https://openweathermap.org/img/w/${data.weatherIcon}.png`;
@@ -110,7 +110,7 @@ function displayWeatherResults(data) {
 function displayForecastResults(data) {
     const forecastElement = document.querySelector("#weather-forecast");
     const forecastBody = document.createElement("div");
-    forecastBody.classList.add("events-and-weather-body");
+    forecastBody.classList.add("card-body");
 
 
     const ul = document.createElement("ul");

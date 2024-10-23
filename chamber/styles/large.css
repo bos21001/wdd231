@@ -1,7 +1,7 @@
 /* ================================================
    Media Queries - Screens larger than 660px
    ================================================ */
-   @media only screen and (min-width: 660px) {
+@media only screen and (min-width: 660px) {
 
     /* ================================================
        Navigation Styles
@@ -63,6 +63,31 @@
         max-width: 1400px;
         margin: 0 auto;
         padding: 0 2rem;
+    }
+
+    /* ================================================
+        Main Cards Section
+        ================================================ */
+    .main-cards {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr
+    }
+
+    .main-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ================================================
+   Media Queries - Screens larger than 1260px
+   ================================================ */
+@media only screen and (min-width: 1260px) {
+    /* ================================================
+        Main Cards Section
+        ================================================ */
+    .main-cards {
+        grid-template-columns: 2fr 1fr 1fr;
     }
 }
 

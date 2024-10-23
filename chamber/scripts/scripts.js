@@ -1,6 +1,3 @@
-// bfcache
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const hamburger = document.querySelector("#hamburger");
 
@@ -9,6 +6,27 @@ document.addEventListener("DOMContentLoaded", () => {
     setCurrentYear();
     setLastModified();
     setCurrentPageNav();
+
+
+    let lastVisit = localStorage.getItem("lastVisit");
+    let currentDate = new Date();
+    let daysBetween = 0;
+    let message;
+
+    if (lastVisit) {
+        lastVisit = new Date(lastVisit);
+        daysBetween = Math.floor((currentDate - lastVisit) / (1000 * 60 * 60 * 24));
+    }
+
+    if (daysBetween < 1) {
+        message = "Back so soon! Awesome!";
+    } else {
+        message = `You last visited ${daysBetween} day${daysBetween === 1 ? "" : "s"} ago.`;
+    }
+
+    localStorage.setItem("lastVisit", currentDate);
+
+    document.getElementById("welcome-message").textContent = message;
 });
 
 function setCurrentYear() {

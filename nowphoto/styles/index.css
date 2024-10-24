@@ -82,7 +82,7 @@
     border-radius: 50%;
     inset: calc(50% - var(--s) / 3);
     cursor: pointer;
-    --g: linear-gradient(#000 0 0) no-repeat;
+    --g: linear-gradient(#000, #000) no-repeat;
     background: var(--g) 50%/var(--b, 0%) 3px, var(--g) 50%/3px var(--b, 0%);
     transition: 1.5s;
     -webkit-appearance: none;
@@ -125,6 +125,26 @@
     --y: -15px;
 }
 
+.gallery > img:nth-of-type(5) {
+    display: none;
+}
+
+.gallery > img:nth-of-type(6) {
+    display: none;
+}
+
+.gallery > img:nth-of-type(7) {
+    display: none;
+}
+
+.gallery > img:nth-of-type(8) {
+    display: none;
+}
+
+.gallery > img:nth-of-type(9) {
+    display: none;
+}
+
 .gallery > input:checked ~ img {
     transform: scale(1);
     filter: brightness(1);
@@ -138,12 +158,12 @@
 
 #gallery-text {
     margin: 0;
-    z-index: 1;
     margin-bottom: -100px;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
     margin-top: 2rem;
+    position: absolute;
 }
 
 /* ================================================

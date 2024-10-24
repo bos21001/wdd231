@@ -38,6 +38,11 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
+        // if the screen is bigger than 600px, do not hide the nav
+        if (window.innerWidth > 600) {
+            return;
+        }
+
         if (currentScroll > lastScrollTop) {
             // Scrolling down
             nav.classList.add("nav-hidden");
@@ -47,5 +52,23 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For mobile or negative scrolling
+    });
+
+    let galleryCheckbox = document.getElementById('gallery-checkbox');
+
+    galleryCheckbox.addEventListener('click', function () {
+        let galleryText = document.getElementById('gallery-text');
+        let gallery = document.getElementById('gallery');
+    //     display none
+        if (galleryText.style.display === 'none') {
+            // wait for the transition to end
+            setTimeout(() => {
+                galleryText.style.display = 'block';
+                gallery.style.display = 'block';
+            }, 1000);
+        } else {
+            galleryText.style.display = 'none';
+            gallery.style.display = 'none';
+        }
     });
 });

@@ -135,7 +135,10 @@ nav {
 footer {
     background-color: var(--tertiary-color);
     color: var(--secondary-color);
-    padding: 2rem;
     text-align: center;
-    margin-bottom: 82px; /* Adjusted for the fixed action buttons */
+    padding: 2rem 2rem 82px;
+}
+
+footer a {
+    display: none;
 }

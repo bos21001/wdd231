@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="Adds navbar, footer and action buttons">
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/hero.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/instagram-bigger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/profile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/whatsapp-bigger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/styles/index.css" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="adds style to phone screens to index.html">
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/envelope-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/hero-large.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/telephone-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/whatsapp-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/styles/index-large.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/styles/style-large.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/images/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/images/arrow-up.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/images/envelope.svg" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/images/envelope.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/images/telephone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/images/telephone.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/images/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/images/whatsapp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,7 @@
       <workItem from="1729676594227" duration="5959000" />
       <workItem from="1729706702004" duration="12863000" />
       <workItem from="1729779760494" duration="42000" />
-      <workItem from="1729779812231" duration="17876000" />
+      <workItem from="1729779812231" duration="23336000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -181,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729793675582</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adds style to phone screens to index.html">
+      <option name="closed" value="true" />
+      <created>1729807138155</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729807138155</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +201,7 @@
     <MESSAGE value="Individual Project Site Plan" />
     <MESSAGE value="W05: Chamber Discover Page" />
     <MESSAGE value="Adds navbar, footer and action buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds navbar, footer and action buttons" />
+    <MESSAGE value="adds style to phone screens to index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds style to phone screens to index.html" />
   </component>
 </project>

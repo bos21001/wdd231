@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="Individual Project Site Plan">
-      <change afterPath="$PROJECT_DIR$/chamber/discover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-3.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-4.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/images/curitiba-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chamber/styles/discover.css" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="W05: Chamber Discover Page">
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/logo-small.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/telephone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/images/whatsapp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/directory.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/directory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/scripts/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/large.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chamber/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/chamber/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +54,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.discover.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.join.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.site-plan.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Christopher Mendes/Documents/repos/wdd231/nowphoto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.discover.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.join.html.executor": "Run",
+    "JavaScript Debug.site-plan.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Christopher Mendes/Documents/repos/wdd231/nowphoto/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\nowphoto\images" />
+      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\images" />
       <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\nowphoto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\nowphoto\images" />
       <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\chamber\images" />
       <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\nowphoto" />
-      <recent name="C:\Users\Christopher Mendes\Documents\repos\wdd231\nowphoto\images" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -131,7 +124,9 @@
       <workItem from="1729192264125" duration="6741000" />
       <workItem from="1729620999990" duration="2422000" />
       <workItem from="1729676594227" duration="5959000" />
-      <workItem from="1729706702004" duration="5890000" />
+      <workItem from="1729706702004" duration="12863000" />
+      <workItem from="1729779760494" duration="42000" />
+      <workItem from="1729779812231" duration="7891000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -165,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729677172522</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="W05: Chamber Discover Page">
+      <option name="closed" value="true" />
+      <created>1729712855208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729712855208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +179,7 @@
     <MESSAGE value="HTML Modals" />
     <MESSAGE value="W04: Chamber Membership Join Page" />
     <MESSAGE value="Individual Project Site Plan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Individual Project Site Plan" />
+    <MESSAGE value="W05: Chamber Discover Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="W05: Chamber Discover Page" />
   </component>
 </project>

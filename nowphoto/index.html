@@ -1,10 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="NOW PHOTO. WEDDING and FAMILY PHOTOGRAPHY. We capture moments forever. Inquiries via Direct Message.">
+    <meta name="author" content="Christopher Mendes">
+    <meta name="og:title" content="NOW Photo">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="https://bos21001.github.io/wdd231/nowphoto/images/android-chrome-192x192.png">
+    <meta name="og:url" content="https://bos21001.github.io/wdd231/nowphoto/site-plan.html">
+    <meta name="og:description"
+          content="NOW PHOTO. WEDDING and FAMILY PHOTOGRAPHY. We capture moments forever. Inquiries via Direct Message.">
+    <meta name="twitter:card"
+          content="NOW PHOTO. WEDDING and FAMILY PHOTOGRAPHY. We capture moments forever. Inquiries via Direct Message.">
+    <meta name="twitter:site" content="@Christo20101374">
+    <meta name="twitter:title" content="NOW Photo">
+    <meta name="twitter:description"
+          content="NOW PHOTO. WEDDING and FAMILY PHOTOGRAPHY. We capture moments forever. Inquiries via Direct Message.">
+    <meta name="twitter:image" content="https://bos21001.github.io/wdd231/nowphoto/images/android-chrome-192x192.png">
+    <meta name="twitter:image:alt" content="NOW Photo Logo">
 
+    <!-- Link images for android-chrome icon, apple touch and others -->
+    <link rel="android-chrome-192x192" href="images/android-chrome-192x192.png">
+    <link rel="android-chrome-512x512" href="images/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <title>NOW Photo</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../chamber/styles/normalize.min.css">
+
+    <!-- Scripts -->
+    <script src="scripts/script.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body id="body">
+<header>
+    <nav>
+        <a href="index.html"><img src="images/logo-small.webp" alt="NOW Photo Logo" width="118" height="50"></a>
+        <button id="open-menu-button" aria-label="Menu" aria-expanded="false" aria-controls="menu">☰</button>
+        <div id="menu" aria-hidden="true" aria-labelledby="open-menu-button" role="menu" class="menu-hidden">
+            <div id="menu-items">
+                <div id="menu-header">
+                    <a href="index.html"><img src="images/logo-small.webp" alt="NOW Photo Logo" width="118" height="50"></a>
+                    <button id="close-menu-button" aria-label="Menu" aria-expanded="false" aria-controls="menu">X
+                    </button>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- social links -->
+                <div id="menu-social-links">
+                    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                        <img src="https://placehold.co/60" alt="WhatsApp" width="60" height="60">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="https://placehold.co/60" alt="Instagram" width="60" height="60">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="hero">
+        <button id="hero-call-to-action">Book Now</button>
+    </div>
+    <div class="container" id="intro-gallery">
+        <div id="intro">
+            <img src="https://placehold.co/100" alt="a forest with a river">
+            <h2>WELCOME TO NOW PHOTO</h2>
+            <p>Welcome to NOW Photo, where we specialize in capturing the beauty and emotion of life’s most cherished
+                moments. Whether you’re looking for stunning wedding photography that tells the story of your big day or
+                timeless family portraits that you’ll treasure for years to come, we are here to make your vision a
+                reality. Our team of professional photographers is dedicated to creating memories that last a lifetime,
+                with a personalized approach to every session. From intimate moments to grand celebrations, we aim to
+                reflect the unique essence of each client. Contact us today to schedule your session and let us turn
+                your special moments into lasting works of art!</p>
+        </div>
+        <div class="gallery">
+            <input type="checkbox">
+            <img src="https://placehold.co/160" alt="a forest after an apocalypse">
+            <img src="https://placehold.co/160" alt="a waterfall and many rocks">
+            <img src="https://placehold.co/160" alt="a house on a mountain">
+            <img src="https://placehold.co/160" alt="some pink flowers">
+            <!-- <img src="https://placehold.co/160" alt="big rocks with some trees">-->
+            <!-- <img src="https://placehold.co/160"-->
+            <!--      alt="a waterfall, a lot of tree and a great view from the sky">-->
+            <!-- <img src="https://placehold.co/160" alt="a cool landscape">-->
+            <!-- <img src="https://placehold.co/160" alt="inside a town between two big buildings">-->
+            <!-- <img src="https://placehold.co/160" alt="a great view of the sea above the mountain">-->
+        </div>
+    </div>
+    <div class="container" id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial" id="first-testimonial">
+            <div class="testimonial-image">
+                <img src="https://placehold.co/140" alt="person1">
+            </div>
+            <div class="testimonial-text">
+                <h3>John Doe</h3>
+                <p>“I had a great experience with NOW Photo. They were very professional and the photos turned out
+                    amazing!”</p>
+            </div>
+        </div>
+        <div class="testimonial" id="second-testimonial">
+            <div class="testimonial-image">
+                <img src="https://placehold.co/140" alt="person2">
+            </div>
+            <div class="testimonial-text">
+                <h3>Jane Doe</h3>
+                <p>“I had a great experience with NOW Photo. They were very professional and the photos turned out
+                    amazing!”</p>
+            </div>
+        </div>
+        <div class="testimonial" id="third-testimonial">
+            <div class="testimonial-image">
+                <img src="https://placehold.co/140" alt="person3">
+            </div>
+            <div class="testimonial-text">
+                <h3>John Smith</h3>
+                <p>“I had a great experience with NOW Photo. They were very professional and the photos turned out
+                    amazing!”</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="call-to-action">
+        <h2>Ready to capture your special moments?</h2>
+        <button>Book Now</button>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 NOW Photo - All Rights Reserved</p>
+</footer>
+<div id="action-buttons">
+    <a href="tel:123-456-7890"><img style="width: 45px; height: 45px" src="images/telephone.svg" alt="Phone Icon"/></a>
+    <a href="mailto:email@email.com"><img style="width: 45px; height: 45px" src="images/envelope.svg" alt="Email Icon"/></a>
+    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer"><img style="width: 45px; height: 45px" src="images/whatsapp.svg" alt="WhatsApp Icon"/></a>
+    <a href="#body"><img style="width: 45px; height: 45px" src="images/arrow-up.svg" alt="Up Arrow Icon"/></a>
+</div>
 </body>
 </html>

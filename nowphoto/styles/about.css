@@ -1,0 +1,14 @@
+main {
+    margin-top: 87px;
+}
+
+#about-image {
+    text-align: center;
+}
+
+#about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 1rem;
+}

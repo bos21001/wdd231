@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="adds style to phone screens to index.html">
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/envelope-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/hero-large.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/telephone-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/images/whatsapp-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/styles/index-large.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/styles/style-large.css" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="finishes about page">
+      <change afterPath="$PROJECT_DIR$/nowphoto/styles/about-large.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/styles/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/images/instagram-bigger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/images/instagram.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style.css" afterDir="false" />
     </list>
@@ -60,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.about.html.executor": "Run",
     "JavaScript Debug.discover.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.join.html.executor": "Run",
@@ -92,7 +90,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -130,7 +128,8 @@
       <workItem from="1729676594227" duration="5959000" />
       <workItem from="1729706702004" duration="12863000" />
       <workItem from="1729779760494" duration="42000" />
-      <workItem from="1729779812231" duration="23336000" />
+      <workItem from="1729779812231" duration="23633000" />
+      <workItem from="1729870169681" duration="4001000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -188,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729807138155</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="finishes index page">
+      <option name="closed" value="true" />
+      <created>1729812455249</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729812455249</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,8 @@
     <MESSAGE value="W05: Chamber Discover Page" />
     <MESSAGE value="Adds navbar, footer and action buttons" />
     <MESSAGE value="adds style to phone screens to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds style to phone screens to index.html" />
+    <MESSAGE value="finishes index page" />
+    <MESSAGE value="finishes about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishes about page" />
   </component>
 </project>

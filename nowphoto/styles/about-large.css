@@ -1,0 +1,32 @@
+/* larger than 600px */
+@media (min-width: 620px) {
+    main {
+        margin: 0;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #instagram-feed {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--quaternary-color);
+        margin: 0;
+    }
+
+    #instagram-feed h2 {
+        color: var(--tertiary-color);
+    }
+}
+
+@media (min-width: 1060px) {
+    #about {
+        grid-template-columns: 400px 600px;
+    }
+}

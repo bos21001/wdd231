@@ -1,74 +1,39 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
+    // DOM Elements
     const openMenuButton = document.getElementById('open-menu-button');
     const closeMenuButton = document.getElementById('close-menu-button');
     const menu = document.getElementById('menu');
+    const nav = document.querySelector("nav");
+    const navLinks = document.querySelectorAll("nav ul li a");
 
-    // Open menu event
-    openMenuButton.addEventListener('click', function () {
-        openMenuButton.setAttribute('aria-expanded', 'true');
-        menu.classList.remove('menu-hidden');
-        menu.classList.add('menu-visible');
-        menu.setAttribute('aria-hidden', 'false');
+    // Menu Toggle
+    const toggleMenu = (isOpen) => {
+        openMenuButton.setAttribute('aria-expanded', isOpen);
+        menu.classList.toggle('menu-visible', isOpen);
+        menu.classList.toggle('menu-hidden', !isOpen);
+        menu.setAttribute('aria-hidden', !isOpen);
+        openMenuButton.style.display = isOpen ? 'none' : 'block';
+        closeMenuButton.style.display = isOpen ? 'block' : 'none';
+    };
 
-        // Toggle button visibility
-        openMenuButton.style.display = 'none';
-        closeMenuButton.style.display = 'block';
-    });
+    openMenuButton.addEventListener('click', () => toggleMenu(true));
+    closeMenuButton.addEventListener('click', () => toggleMenu(false));
 
-    // Close menu event
-    closeMenuButton.addEventListener('click', function () {
-        openMenuButton.setAttribute('aria-expanded', 'false');
-        menu.classList.remove('menu-visible');
-        menu.classList.add('menu-hidden');
-        menu.setAttribute('aria-hidden', 'true');
-
-        // Toggle button visibility
-        openMenuButton.style.display = 'block';
-        closeMenuButton.style.display = 'none';
-    });
-
-    let lastScrollTop = 0; // Store the last scroll position
-
-    window.addEventListener("scroll", function () {
-        const nav = document.querySelector("nav");
+    // Navigation Scroll Hide/Show
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", () => {
+        if (menu.classList.contains('menu-visible') || window.innerWidth > 600) return;
         const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-
-        // if menu is open, do not hide it
-        if (menu.classList.contains('menu-visible')) {
-            return;
-        }
-
-        // if the screen is bigger than 600px, do not hide the nav
-        if (window.innerWidth > 600) {
-            return;
-        }
-
-        if (currentScroll > lastScrollTop) {
-            // Scrolling down
-            nav.classList.add("nav-hidden");
-        } else {
-            // Scrolling up
-            nav.classList.remove("nav-hidden");
-        }
-
-        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // For mobile or negative scrolling
+        nav.classList.toggle("nav-hidden", currentScroll > lastScrollTop);
+        lastScrollTop = Math.max(0, currentScroll);
     });
 
-    let galleryCheckbox = document.getElementById('gallery-checkbox');
-
-    galleryCheckbox.addEventListener('click', function () {
-        let galleryText = document.getElementById('gallery-text');
-        let gallery = document.getElementById('gallery');
-    //     display none
-        if (galleryText.style.display === 'none') {
-            // wait for the transition to end
-            setTimeout(() => {
-                galleryText.style.display = 'block';
-                gallery.style.display = 'block';
-            }, 1000);
-        } else {
-            galleryText.style.display = 'none';
-            gallery.style.display = 'none';
+    // Wayfinding: Highlight Active Page
+    const currentPath = window.location.pathname.split("/").pop();
+    navLinks.forEach(link => {
+        const linkPath = link.getAttribute("href");
+        if (linkPath.includes(currentPath)) {
+            link.classList.add("active");
         }
     });
 });

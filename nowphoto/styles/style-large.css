@@ -34,8 +34,11 @@
 
     #menu-items a {
         font-size: 1.5rem;
-        color: var(--primary-color);
         text-decoration: none;
+    }
+
+    #menu ul li a:hover {
+        text-decoration: overline;
     }
 
     #menu-header {

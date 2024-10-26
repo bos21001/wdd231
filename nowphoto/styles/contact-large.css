@@ -26,4 +26,13 @@
         width: 50%;
         max-width: 600px;
     }
+
+    #whatsapp-form button {
+        transition: 0.5s;
+    }
+
+    #whatsapp-form button:hover {
+        scale: 1.03;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 10, 0.6);
+    }
 }

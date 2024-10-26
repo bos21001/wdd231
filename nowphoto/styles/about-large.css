@@ -18,6 +18,7 @@
         align-items: center;
         background-color: var(--quaternary-color);
         margin: 0;
+        padding-top: 2rem;
     }
 
     #instagram-feed h2 {

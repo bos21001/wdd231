@@ -23,6 +23,11 @@
         appearance: none;
     }
 
+    .gallery:hover img,
+    .gallery:hover #gallery-checkbox {
+        scale: 1.13;
+    }
+
     .gallery > img {
         width: var(--s);
         aspect-ratio: 1;
@@ -100,6 +105,32 @@
     .gallery > input:checked {
         transform: translateY(calc(1.75 * var(--s))) scale(.5) rotate(45deg);
         --b: 70%;
+    }
+
+    .testimonial {
+        transition: 0.6s;
+        border-radius: 10px;
+    }
+
+    .testimonial:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.23);
+        scale: 1.02;
+    }
+
+    #hero-call-to-action, #call-to-action a {
+        transition: 0.6s;
+    }
+
+    #hero-call-to-action:hover {
+        scale: 1.03;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.56);
+        font-weight: 600;
+    }
+
+    #call-to-action a:hover {
+        background-color: var(--tertiary-color);
+        color: var(--secondary-color);
     }
 }
 

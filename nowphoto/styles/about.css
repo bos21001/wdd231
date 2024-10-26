@@ -12,3 +12,8 @@ main {
     height: auto;
     margin-top: 1rem;
 }
+
+/* Added to override the javascript from the instagram-embed.js file, created by Meta Company */
+#instagram-embed-0#instagram-embed-0 {
+    min-width: auto !important;
+}

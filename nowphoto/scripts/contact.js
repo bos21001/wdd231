@@ -1,7 +1,8 @@
-const textarea = document.getElementById('text');
-textarea.addEventListener('input', autoResize);
+document.addEventListener("DOMContentLoaded", () => {
+    const textarea = document.getElementById('text');
 
-function autoResize() {
-    this.style.height = 'auto';
-    this.style.height = `${this.scrollHeight}px`;
-}
+    textarea.addEventListener('input', () => {
+        textarea.style.height = 'auto';
+        textarea.style.height = `${textarea.scrollHeight}px`;
+    });
+});

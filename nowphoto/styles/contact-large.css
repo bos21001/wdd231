@@ -1,0 +1,29 @@
+/* bigger than 400px */
+@media (min-width: 410px) {
+    #now-box img {
+        width: 100%;
+        max-height: 500px;
+        object-fit: cover;
+        margin-top: 5rem;
+    }
+}
+
+@media (min-width: 600px) {
+    main {
+        margin: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    #contact {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    #whatsapp-form {
+        width: 50%;
+        max-width: 600px;
+    }
+}

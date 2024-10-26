@@ -1,0 +1,83 @@
+main {
+    margin-top: 87px;
+}
+
+#whatsapp-form h1 {
+    padding-top: 10px;
+}
+
+#whatsapp-form h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+#whatsapp-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    background-image: url("../images/whatsapp-background.webp");
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+#whatsapp-form form textarea {
+    width: 100%;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 5px;
+    overflow-y: hidden;
+    resize: none;
+    padding: 7px;
+    box-sizing: border-box;
+    height: 70px;
+}
+
+
+#whatsapp-form form button {
+    background-color: #008069;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-info h2 {
+    margin: 0;
+}
+
+#contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#contact-info a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#now-box {
+    margin: 0;
+    text-align: center;
+}
+
+#now-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -4px;
+}

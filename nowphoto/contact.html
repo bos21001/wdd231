@@ -1,10 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Contact NOW Photo, a photography studio that specializes in capturing the beauty and emotion of life’s most cherished moments.">
+    <meta name="author" content="Christopher Mendes">
+    <meta name="og:title" content="NOW Photo">
+    <meta name="og:type" content="website">
+    <meta name="og:image" content="https://bos21001.github.io/wdd231/nowphoto/images/android-chrome-192x192.png">
+    <meta name="og:url" content="https://bos21001.github.io/wdd231/nowphoto/site-plan.html">
+    <meta name="og:description"
+          content="Contact NOW Photo, a photography studio that specializes in capturing the beauty and emotion of life’s most cherished moments.">
+    <meta name="twitter:card"
+          content="Contact NOW Photo, a photography studio that specializes in capturing the beauty and emotion of life’s most cherished moments.">
+    <meta name="twitter:site" content="@Christo20101374">
+    <meta name="twitter:title" content="NOW Photo">
+    <meta name="twitter:description"
+          content="Contact NOW Photo, a photography studio that specializes in capturing the beauty and emotion of life’s most cherished moments.">
+    <meta name="twitter:image" content="https://bos21001.github.io/wdd231/nowphoto/images/android-chrome-192x192.png">
+    <meta name="twitter:image:alt" content="NOW Photo Logo">
 
+    <!-- Link images for android-chrome icon, apple touch and others -->
+    <link rel="android-chrome-192x192" href="images/android-chrome-192x192.png">
+    <link rel="android-chrome-512x512" href="images/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <title>About Us | NOW Photo</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+          rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-large.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/contact-large.css">
+    <link rel="stylesheet" href="../chamber/styles/normalize.min.css">
+
+    <!-- Scripts -->
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body id="body">
+<header>
+    <nav>
+        <a href="index.html"><img src="images/logo-small.webp" alt="NOW Photo Logo" width="118"
+                                  height="50"></a>
+        <button id="open-menu-button" aria-label="Menu" aria-expanded="false" aria-controls="menu">☰</button>
+        <div id="menu" aria-labelledby="open-menu-button" class="menu-hidden">
+            <div id="menu-items">
+                <div id="menu-header">
+                    <a href="index.html"><img loading="lazy" src="images/logo-small.webp" alt="NOW Photo Logo"
+                                              width="118" height="50"></a>
+                    <button id="close-menu-button" aria-label="Menu" aria-expanded="false" aria-controls="menu">X
+                    </button>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <!-- social links -->
+                <div id="menu-social-links">
+                    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                        <img loading="lazy" src="images/whatsapp.svg" alt="WhatsApp" width="30" height="30">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img loading="lazy" src="images/instagram.svg" alt="Instagram" width="30" height="30">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div id="contact">
+        <div id="whatsapp-form" class="container">
+            <h1>Contact Us</h1>
+            <form action="https://api.whatsapp.com/send/" method="get" target="_blank">
+                <label for="phone">
+                    <input type="hidden" name="phone" id="phone" value="1234567890">
+                </label>
+                <label for="text">
+                <textarea name="text" id="text"
+                          required>Hello, I would like to inquire about your photography services.</textarea>
+                </label>
+                <button type="submit"><img loading="lazy" src="images/whatsapp-white.svg" alt="WhatsApp Icon"/> Chat Now
+                </button>
+            </form>
+        </div>
+        <div id="contact-info" class="container">
+            <h2>Contact Information</h2>
+            <p><img loading="lazy" src="images/telephone.svg" alt="Phone Icon"/> 123-456-7890</p>
+            <p><img loading="lazy" src="images/envelope.svg" alt="Email Icon"/> <a
+                    href="mailto:email@email.com">email@email.com</a></p>
+            <p><img loading="lazy" src="images/whatsapp.svg" alt="WhatsApp Icon"/> <a
+                    href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">Chat Now</a></p>
+            <p><img loading="lazy" src="images/instagram.svg" alt="Instagram Icon"/> <a
+                    href="https://www.instagram.com/_nowphoto" target="_blank" rel="noopener noreferrer">@_nowphoto</a>
+        </div>
+    </div>
+    <div id="now-box" class="container">
+        <picture>
+            <source srcset="images/now-box.webp" media="(max-width: 400px)">
+            <source srcset="images/now-box-large.webp">
+            <img src="images/now-box.webp" alt="NOW Photo Box" width="400" height="400">
+        </picture>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 NOW Photo - All Rights Reserved</p>
+    <a href="tel:123-456-7890">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/telephone-white.svg" alt="Phone Icon"/>
+    </a>
+    <a href="mailto:email@email.com">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/envelope-white.svg" alt="Email Icon"/>
+    </a>
+    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/whatsapp-white.svg" alt="WhatsApp Icon"/>
+    </a>
+</footer>
+<div id="action-buttons">
+    <a href="tel:123-456-7890">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/telephone.svg" alt="Phone Icon"/>
+    </a>
+    <a href="mailto:email@email.com">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/envelope.svg" alt="Email Icon"/>
+    </a>
+    <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/whatsapp.svg" alt="WhatsApp Icon"/>
+    </a>
+    <a href="#body">
+        <img loading="lazy" style="width: 30px; height: 30px" src="images/arrow-up.svg" alt="Up Arrow Icon"/>
+    </a>
+</div>
 </body>
 </html>

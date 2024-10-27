@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="finishes contact page">
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/styles/instagram-embed.min.css" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="enhancements to the js and css">
+      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/places.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/styles/contact-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/contact-large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/index-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/index-large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/style-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style-large.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +132,7 @@
       <workItem from="1729779760494" duration="42000" />
       <workItem from="1729779812231" duration="23633000" />
       <workItem from="1729870169681" duration="12878000" />
-      <workItem from="1729980286299" duration="5205000" />
+      <workItem from="1729980286299" duration="15856000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -220,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729935454117</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="enhancements to the js and css">
+      <option name="closed" value="true" />
+      <created>1729986256116</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729986256116</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +239,7 @@
     <MESSAGE value="finishes index page" />
     <MESSAGE value="finishes about page" />
     <MESSAGE value="finishes contact page" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishes contact page" />
+    <MESSAGE value="enhancements to the js and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhancements to the js and css" />
   </component>
 </project>

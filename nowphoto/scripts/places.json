@@ -1,0 +1,76 @@
+{
+  "places": [
+    {
+      "name": "Jardim Botânico",
+      "photo": "images/places/jardim-botanico.webp"
+    },
+    {
+      "name": "Ópera de Arame",
+      "photo": "images/places/opera-de-arame.webp"
+    },
+    {
+      "name": "Parque Tanguá",
+      "photo": "images/places/parque-tangua.webp"
+    },
+    {
+      "name": "Parque Barigui",
+      "photo": "images/places/parque-barigui.webp"
+    },
+    {
+      "name": "Bosque Alemão",
+      "photo": "images/places/bosque-alemao.webp"
+    },
+    {
+      "name": "Praça do Japão",
+      "photo": "images/places/praca-do-japao.webp"
+    },
+    {
+      "name": "Passeio Público",
+      "photo": "images/places/passeio-publico.webp"
+    },
+    {
+      "name": "Parque Tingui",
+      "photo": "images/places/parque-tingui.webp"
+    },
+    {
+      "name": "Parque São Lourenço",
+      "photo": "images/places/parque-sao-lourenco.webp"
+    },
+    {
+      "name": "Parque Bacacheri",
+      "photo": "images/places/parque-bacacheri.webp"
+    },
+    {
+      "name": "Parque das Pedreiras",
+      "photo": "images/places/parque-das-pedreiras.webp"
+    },
+    {
+      "name": "Parque Passaúna",
+      "photo": "images/places/parque-passauna.webp"
+    },
+    {
+      "name": "Parque Náutico",
+      "photo": "images/places/parque-nautico.webp"
+    },
+    {
+      "name": "Caminho do Vinho",
+      "photo": "images/places/caminho-do-vinho.webp"
+    },
+    {
+      "name": "Graciosa",
+      "photo": "images/places/graciosa.webp"
+    },
+    {
+      "name": "Bosque do Papa",
+      "photo": "images/places/bosque-do-papa.webp"
+    },
+    {
+      "name": "Rua das Flores",
+      "photo": "images/places/rua-das-flores.webp"
+    },
+    {
+      "name": "Museu Oscar Niemeyer",
+      "photo": "images/places/museu-oscar-niemeyer.webp"
+    }
+  ]
+}

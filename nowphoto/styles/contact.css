@@ -81,3 +81,163 @@ main {
     height: auto;
     margin-bottom: -4px;
 }
+
+#holiday-message {
+    color: gray;
+    font-size: 0.8em;
+}
+
+/* Container styles */
+#places-ideas {
+    padding: 20px;
+    margin: 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+#places-ideas h2 {
+    font-size: 1.8em;
+    color: white;
+
+}
+
+#places-ideas button {
+    color: var(--primary-color);
+    background-color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+/* Hidden content by default */
+#places-ideas-content {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Place idea styles */
+.place-idea {
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+}
+
+.place-idea h3 {
+    font-size: 1.2em;
+    color: white;
+}
+
+.place-idea img {
+    width: 250px;
+    height: 210px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+
+/* List styling */
+#places-ideas-content {
+    list-style-type: none;
+    padding: 0;
+}
+
+.place-idea {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+}
+
+/* List styling */
+#places-ideas-content {
+    list-style-type: none;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.place-idea {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+    transition: background-color 0.3s;
+}
+

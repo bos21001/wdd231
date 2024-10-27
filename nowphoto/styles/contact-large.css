@@ -4,13 +4,32 @@
         width: 100%;
         max-height: 500px;
         object-fit: cover;
-        margin-top: 5rem;
     }
 }
 
 @media (min-width: 600px) {
     main {
         margin: 0;
+    }
+
+    #places-ideas-content {
+        grid-template-columns: auto auto auto;
+    }
+
+    .place-idea {
+        transition: 0.5s;
+        border-radius: 10px;
+    }
+
+    .place-idea:hover {
+        scale: 1.03;
+        background-color: white;
+        color: var(--primary-color);
+    }
+
+    #places-ideas button:hover {
+        background-color: black;
+        color: white;
     }
 }
 

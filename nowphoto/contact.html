@@ -98,6 +98,7 @@
                 <button type="submit"><img loading="lazy" src="images/whatsapp-white.svg" alt="WhatsApp Icon"/> Chat Now
                 </button>
             </form>
+            <p id="holiday-message"></p>
         </div>
         <div id="contact-info" class="container">
             <h2>Contact Information</h2>
@@ -108,6 +109,20 @@
                     href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">Chat Now</a></p>
             <p><img loading="lazy" src="images/instagram.svg" alt="Instagram Icon"/> <a
                     href="https://www.instagram.com/_nowphoto" target="_blank" rel="noopener noreferrer">@_nowphoto</a>
+        </div>
+    </div>
+    <div id="places-ideas" class="container">
+        <h2>Have no idea where to take your photos?</h2>
+        <button>Click to expand!</button>
+        <ul id="places-ideas-content">
+        </ul>
+        <!-- Modal for displaying place details -->
+        <div id="place-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="place-name"></h3>
+                <img id="place-photo" src="" alt="Place Image"/>
+            </div>
         </div>
     </div>
     <div id="now-box" class="container">

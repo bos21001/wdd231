@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="adds missing pictures">
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/modules/actionButtons.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/modules/footer.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/modules/navbar.mjs" afterDir="false" />
+    <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="Refactors the code by crating modules to generate nav, footer and action button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +129,7 @@
       <workItem from="1729870169681" duration="12878000" />
       <workItem from="1729980286299" duration="15990000" />
       <workItem from="1730146743940" duration="9716000" />
-      <workItem from="1730229694669" duration="2342000" />
+      <workItem from="1730229694669" duration="3333000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -251,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730201288351</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Refactors the code by crating modules to generate nav, footer and action button">
+      <option name="closed" value="true" />
+      <created>1730237628789</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1730237628789</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +271,7 @@
     <MESSAGE value="enhancements to the js and css" />
     <MESSAGE value="fixes the wayfind and adds missing pictures" />
     <MESSAGE value="adds missing pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds missing pictures" />
+    <MESSAGE value="Refactors the code by crating modules to generate nav, footer and action button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactors the code by crating modules to generate nav, footer and action button" />
   </component>
 </project>

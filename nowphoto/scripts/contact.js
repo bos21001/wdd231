@@ -45,6 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     placeName.textContent = place.name;
                     placePhoto.src = place.photo;
                     placePhoto.alt = place.name;
+                    placePhoto.width = place.width;
+                    placePhoto.height = place.height;
                     modal.style.display = "block";
                 });
 

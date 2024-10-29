@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a80ac47f-b82c-42aa-a7ac-6d08c84b22fa" name="Changes" comment="enhancements to the js and css">
-      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/places.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nowphoto/scripts/modules/navbar.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/scripts/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nowphoto/styles/contact-large.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/contact-large.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/places.json" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/places.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nowphoto/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nowphoto/styles/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/nowphoto/styles/contact.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -132,7 +132,8 @@
       <workItem from="1729779760494" duration="42000" />
       <workItem from="1729779812231" duration="23633000" />
       <workItem from="1729870169681" duration="12878000" />
-      <workItem from="1729980286299" duration="15856000" />
+      <workItem from="1729980286299" duration="15990000" />
+      <workItem from="1730146743940" duration="8559000" />
     </task>
     <task id="LOCAL-00003" summary="W04: Chamber Membership Join Page">
       <option name="closed" value="true" />
@@ -222,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729986256116</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="enhancements to the js and css">
+      <option name="closed" value="true" />
+      <created>1730072853517</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730072853517</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

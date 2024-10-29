@@ -30,10 +30,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Wayfinding: Highlight Active Page
     const currentPath = window.location.pathname.split("/").pop();
+    let anyMatch = false;
     navLinks.forEach(link => {
         const linkPath = link.getAttribute("href");
-        if (linkPath.includes(currentPath)) {
+        if (linkPath.includes(currentPath) && currentPath !== "") {
             link.classList.add("active");
+            anyMatch = true;
         }
     });
+
+    // If no match, highlight Home
+    if (!anyMatch) {
+        navLinks[0].classList.add("active");
+    }
 });

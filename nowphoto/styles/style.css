@@ -159,6 +159,10 @@ footer a {
     display: none;
 }
 
+footer > div {
+    margin-bottom: 66px;
+}
+
 /* ================================================
    Action Buttons Styles
    ================================================ */

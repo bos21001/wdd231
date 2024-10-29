@@ -1,3 +1,11 @@
+import { createNavbar } from './modules/navbar.mjs';
+import { createFooter } from './modules/footer.mjs';
+import { createActionButtons } from './modules/actionButtons.mjs';
+
+document.querySelector('header').prepend(createNavbar());
+document.querySelector('footer').appendChild(createFooter());
+document.body.appendChild(createActionButtons());
+
 document.addEventListener("DOMContentLoaded", () => {
     // DOM Elements
     const openMenuButton = document.getElementById('open-menu-button');
